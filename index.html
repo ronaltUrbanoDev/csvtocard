@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Converte CSV CARD</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>CONVERT TXT TO CSV</h1>
+    <form action="form.php" method="post" enctype="multipart/form-data">
+        <label for="arquivo">Selecione o arquivo de bloco de notas:</label><br>
+        <input type="file" id="arquivo" name="arquivo"><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <h1>CONVERT TXT TO CARD</h1>
+    <form action="formCsv.php" method="post" enctype="multipart/form-data">
+      <label for="conteudo">Selecione o arquivo de bloco de notas:</label><br>
+      <input type="file" id="conteudo" name="conteudo"><br><br>
+      <input type="submit" value="Enviar">
+  </form>
+  <h1>CONTADOR DE NUMEROS</h1>
+  <form action="contador.php" method="post">
+    <label for="numeros">Insira os números separados por vírgula:</label><br>
+    <textarea name="numeros" id="numeros" cols="30" rows="10"></textarea><br>
+    <input type="submit" value="Contar Números">
+</form>
+  </body>
+</html>
